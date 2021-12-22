@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from collections import Counter
 
 def part1(fishes):
