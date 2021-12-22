@@ -28,8 +28,5 @@ def main():
     part1(fishes)
     part2(fishes)
 
-
-
-
 if __name__ == "__main__":
     main()
