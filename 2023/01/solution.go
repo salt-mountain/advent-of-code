@@ -7,16 +7,16 @@ import (
 	"strings"
 )
 
-var numberMap = map[string]int {
-	"one": 1,
-	"two": 2,
+var numberMap = map[string]int{
+	"one":   1,
+	"two":   2,
 	"three": 3,
-	"four": 4,
-	"five": 5,
-	"six": 6,
+	"four":  4,
+	"five":  5,
+	"six":   6,
 	"seven": 7,
 	"eight": 8,
-	"nine": 9,
+	"nine":  9,
 }
 
 func main() {
@@ -45,7 +45,7 @@ func main() {
 
 	// Part 2
 	real_calibration_total := 0
-	for _, line :=range lines {
+	for _, line := range lines {
 		var values []int
 		real_number := ""
 
