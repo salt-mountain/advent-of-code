@@ -23,14 +23,14 @@ def main():
     
     winning_points = 0
     # Part 2 Logic
-    # Generate a List of 1s for each card, since that's guaranteed.
     # For a given Winning Card, we'll iterate over the number of winning numbers
     # which gives us an easy way to iterate to the next sets of cards to increase
     # how many of each we have.
     # Ex:
     # Card 1 has four matching numbers, so you win one copy each of the next four cards: cards 2, 3, 4, and 5.
     # Looping over the amount winning numbers, we can easily increment scratchcard + winning number (e.g 1,2,3,4) to get a
-    # new total of original card + new winning card/duplicate.
+    # new total of original card + new winning card/duplicate for Card 2,3,4,5.
+    # Start with '1' for each card, since thats what we start the game with.
     total_scratchcards = [1] * len(scratchcard)
 
     for i, card in enumerate(scratchcard):
