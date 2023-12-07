@@ -23,7 +23,8 @@ class SeedMap:
         return seed_value
     
     def __str__(self):
-        return f"{self.from_map_type} => {self.target_map_type}"
+        return f"{self.from_map_type} to {self.target_map_type}"
+
     def __repr__(self):
         return self.__str__()
 
