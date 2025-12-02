@@ -1,1 +1,12 @@
+# dependencies (bun install)
+node_modules
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# Finder (MacOS) folder config
+.DS_Store
 input.txt
+
